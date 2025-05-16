@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BalanceBot - Expense Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="tracker">
+    <h2>BalanceBot</h2>
+    <div class="form-group">
+      <input type="text" id="desc" placeholder="Enter expense" />
+      <input type="number" id="amount" placeholder="Amount (₹)" />
+      <button id="addBtn">Add Expense</button>
+    </div>
+    <ul id="expenseList"></ul>
+    <div class="total">Total Spent: ₹<span id="total">0</span></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
